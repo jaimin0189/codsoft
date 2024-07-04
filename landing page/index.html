@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">
+            <img class="logo" src="img/jemslogo.png" alt="watchlogo">
+        </div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>JEMS OPTICAL</h1>
+        </div>
+        <div class="side2">
+            <img class="main-img" src="img/s2.jpeg" width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Top Brand</span>
+            </div>
+            <div class="boxes">
+                <div class="box color-box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                          <b>Polo Ralph Lauren</b>
+                        </a>
+                    </div>
+                    <p>
+                        Polo Ralph Lauren Men's Metal Man Aviator Sunglasses are a stylish and classy addition to any look.
+                         Polarized lenses provide 100% UV protection and reduce glare, while the metal frame is strong and lightweight. 
+                    </p>
+                </div>
+                <div class="box color-box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           <b> Oakley</b>
+                        </a>
+                    </div>
+                    <p>
+                        The Oakley Men's OO9290 Jawbreaker Shield Sunglasses feature a wide, wrap-around frame that provides excellent coverage and weather protection.
+                         Because of their large lenses, which also give them a bold.
+                    </p>
+                </div>
+
+                <div class="box color-box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           <b> Tommy Hilfiger</b>
+                        </a>
+                    </div>
+                    <p>
+                        Grey Tommy Hilfiger sunglasses for men are both fashionable and functional. 
+                        The sturdy materials used to build the frame were chosen for their long-lasting comfort and lightness. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button><b>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                              jemsoptical@gmail.com<br>
+                              6354658206
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By Jaimin Vasani
+              
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+
+</html>
